@@ -1,0 +1,9 @@
+250ns delay time
+
+for 1 output: 
+send 1 for 3 count == 750ns should be 800ns
+send 0 for 2 count == 500ns should be 450ns
+
+for 0 output:
+send 1 for 2 count == 500ns should be 400ns
+send 0 for 3 count == 750ns should be 850ns
